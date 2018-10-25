@@ -2,7 +2,7 @@
 
 ## Descrição
 
-
+Aplicativo de biblioteca offline de JavaScript, HTML e CSS para que quando um programador quiser ele possa observar a sintaxe de uma função que ele deseja saber sem que precise de internet.
 
 ## Pré-requisitos
 
