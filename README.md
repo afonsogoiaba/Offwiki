@@ -1,14 +1,8 @@
-# Aplicativo do Dado
+# Offwiki
 
-## Atividade
+## Descrição
 
-Criar um componente chamado Dice que siga o seguinte layout:
 
-![Layout do aplicativo do Dado](layout.jpeg)
-
-Ao apertar o botão o componente deve sortear um número entre 1 e 6 e então mostrar a imagem do dado correspondente.
-
-Entregar o aplicativo via Moodle.
 
 ## Pré-requisitos
 
