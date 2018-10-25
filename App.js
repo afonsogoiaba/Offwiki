@@ -5,7 +5,10 @@ import AppHeader from './src/components/AppHeader';
 export default class App extends React.Component {
   render() {
     return (
-      <AppHeader />
+      <AppHeader 
+        title = "Offwiki"
+        version = "v.0.1"
+      />
     );
   }
 }

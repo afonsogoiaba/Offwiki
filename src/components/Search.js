@@ -6,7 +6,7 @@ export default class Search extends React.Component {
 		return (
 			<View style={styles.search}>
 				<TextInput />
-				<Image source={require('lupa.svg')}/>
+				<Image style={styles.lupa} source={require('lupa.svg')}/>
 			</View>
 		);
 	}
@@ -14,6 +14,14 @@ export default class Search extends React.Component {
 
 const styles = StyleSheet.create ({
 	search: {
-		backgroudColor: 'rgba(255,255,255,0.7)'
+		flex: 1,
+		backgroudColor: 'rgba(255,255,255,0.7)',
+		flexDirection: 'row',
+		alignItems: 'center'
+	},
+
+	lupa:{
+		width: 32,
+    height: 32
 	}
 });

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, Button, Search} from 'react-native';
+import { StyleSheet, Text, View, Image, Button} from 'react-native';
 import Search from 'Search';
 
 export default class AppHeader extends React.Component {
