@@ -10,35 +10,40 @@ export default class AppHeader extends React.Component {
 	render () {
 		return (
 			<View style={styles.container}>
-				<View style={styles.header}>
-					<View style = {styles.logo}>
-						<Text>{props.title}</Text>	
-						<Image source={require('logo.svg')} />
+				<ScrollView style={styles.lista}>
+					<View style={styles.bloco}>
+						<Text>Proriedades HTML</Text>
 					</View>
-					<Search />
-					<Text>{props.version}</Text>
-				</View>
+					<View style = {styles.bloco}>
+						<Text>Proriedades CSS</Text>
+					</View>
+					<View>
+						<Text style = {styles.bloco}>Proriedades jS</Text>
+					</View>
+				</ScrollView>
 			</View>
 		);
 	}
 }
 
 const styles = StyleSheet.create ({
-	container:{
-		height: 56
+	body:{
+		justifyContent: 'center',
+		alignItems: 'center',
+		flexDirection: 'column'
 	},
-	header: {
-		flex: 1,
-    alignItems: 'center',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-		backgroundColor: '#000',
-		color: '#fff'
-	},
+	
+container:{
+	padding: '10px'
+},
+lista: {
+	padding: '10px',
+	backgroundColor: 'green'
+},
+bloco: {
+	width: 120,
+	height: 90,
+	backgroundColor: '#000'
+}
 
-	logo: {
-		flex: 1,
-		flexDirection: 'row',
-		alignItems: 'center'
-	}
 });

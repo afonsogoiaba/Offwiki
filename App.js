@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import AppHeader from './src/components/AppHeader';
+import AppHeader from './src/components/listProps';
 
 export default class App extends React.Component {
   render() {
@@ -9,6 +10,7 @@ export default class App extends React.Component {
         title = "Offwiki"
         version = "v.0.1"
       />
+      <listProps />
     );
   }
 }
