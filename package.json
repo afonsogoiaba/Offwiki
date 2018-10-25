@@ -1,5 +1,6 @@
 {
-  "name": "exam",
+  "name": "Offwiki",
+  "authors": "Afonso, Igor, Jônatas, Pablo",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
